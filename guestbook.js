@@ -111,4 +111,22 @@ window.GUESTBOOK_ENTRIES = [
     alt: 'second card from tim',
     w: 280,
   },
+  {
+    // Noah — full-stack on Groups. Copy is a first draft; cut it like Tim's if you'd rather.
+    name: 'noah (groups)',
+    time: '10:11 AM',
+    msg: 'a real card. real paper. real pen. show-off.',
+    img: 'assets/cards/noah.png',
+    alt: 'card from noah',
+    w: 280,
+  },
+  {
+    // Sumi — services team, was on Check-Ins until recently.
+    name: 'sumi (services)',
+    time: '10:19 AM',
+    msg: 'live long and prosper... eat cake',
+    img: 'assets/cards/sumi.png',
+    alt: 'card from sumi',
+    w: 240,
+  },
 ];
