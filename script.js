@@ -33,8 +33,11 @@
       time.textContent = '// ' + entry.time;
       row.appendChild(time);
 
-      row.appendChild(document.createElement('br'));
-      row.appendChild(document.createTextNode(entry.msg));
+      // msg is optional — some cards speak for themselves.
+      if (entry.msg) {
+        row.appendChild(document.createElement('br'));
+        row.appendChild(document.createTextNode(entry.msg));
+      }
 
       if (entry.img) {
         row.appendChild(document.createElement('br'));

@@ -11,7 +11,7 @@
    Fields:
      name     link text (required)
      time     shown after "//" (required)
-     msg      one-liner (required)
+     msg      one-liner (optional — omit it and the card stands alone)
      img      path to the card, or null
      w        display width in px — the handoff used 240 or 280
      missing  shown inline instead of an image when img is null
@@ -92,14 +92,13 @@ window.GUESTBOOK_ENTRIES = [
     msg: 'thanks for being awesome! still #9. still salty. :-)',
     img: 'assets/cards/mike.png',
     alt: 'card from mike',
-    w: 240,
+    w: 280,
   },
   {
     // Tim — PM on Groups, the other team Joseph works with. Copy below is a
     // first draft in the house voice; edit freely.
     name: 'tim (groups)',
     time: '10:02 AM',
-    msg: 'magazine cutout letters. nobody is being held hostage. probably',
     img: 'assets/cards/tim-ransom.png',
     alt: 'ransom-note card from tim',
     w: 240,
