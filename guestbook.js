@@ -1,23 +1,22 @@
 /* ============================================================
    GUESTBOOK ENTRIES
 
-   >>> PLACEHOLDER DATA — lifted from the design handoff. <<<
-   Higher-quality names / messages / pictures are coming. To swap:
+   This is the whole guestbook. To add or change one:
 
-     1. drop the new PNGs in assets/cards/
-     2. replace the array below
+     1. drop the image in assets/cards/
+     2. edit the array below
      3. commit + push. No HTML or CSS changes needed.
 
    Fields:
      name     link text (required)
      time     shown after "//" (required)
      msg      one-liner (optional — omit it and the card stands alone)
-     img      path to the card, or null
-     w        display width in px — the handoff used 240 or 280
+     img      path to the card (PNG or GIF), or null
+     w        display width in px — 240 or 280
      missing  shown inline instead of an image when img is null
 
-   Please downscale new cards to ~560px wide before committing;
-   the handoff PNGs are ~1000px and the folder is already 3 MB.
+   Downscale new cards to ~560px wide before committing (2x the display
+   size). Animated GIFs: keep them under ~2 MB — see dave.gif.
    ============================================================ */
 
 window.GUESTBOOK_ENTRIES = [
@@ -144,8 +143,8 @@ window.GUESTBOOK_ENTRIES = [
     // Dave — Joseph's manager. Copy is a first draft; edit freely.
     name: 'dave (the boss)',
     time: '10:26 AM',
-    msg: 'WordArt. rainbow gradient. an eagle. a cow in a space helmet. this is the only card here that actually belongs on this website',
-    img: 'assets/cards/dave.png',
+    msg: 'WordArt. rainbow gradient. an eagle. a cow in a space helmet. AND IT MOVES. this is the only card here that actually belongs on this website',
+    img: 'assets/cards/dave.gif',
     alt: 'card from dave',
     w: 280,
   },
