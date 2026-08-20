@@ -29,9 +29,9 @@ window.GUESTBOOK_ENTRIES = [
     w: 280,
   },
   {
+    // No msg — the card speaks for itself.
     name: 'beth (eng ops)',
     time: '3:09 PM',
-    msg: 'HBD (1).png',
     img: 'assets/cards/beth-hbd.png',
     alt: 'card from beth',
     w: 280,
@@ -40,7 +40,7 @@ window.GUESTBOOK_ENTRIES = [
     // Copy below is a first draft in the house voice; edit freely.
     name: 'beth (eng ops)',
     time: '3:11 PM',
-    msg: 'yay baseball. also a tree, and the checkmark. she gets you.',
+    msg: 'yay baseball. also a tree, and the checkmark.',
     img: 'assets/cards/beth-yay-baseball.png',
     alt: 'second card from beth',
     w: 280,
@@ -48,7 +48,7 @@ window.GUESTBOOK_ENTRIES = [
   {
     name: 'brendon',
     time: '3:09 PM',
-    msg: 'finger guns. it’s your birthday.',
+    msg: 'pew pew',
     img: 'assets/cards/brendon.png',
     alt: 'card from brendon',
     w: 280,
