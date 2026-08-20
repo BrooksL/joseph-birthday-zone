@@ -93,4 +93,22 @@ window.GUESTBOOK_ENTRIES = [
     alt: 'card from mike',
     w: 240,
   },
+  {
+    // Tim — PM on Groups, the other team Joseph works with. Copy below is a
+    // first draft in the house voice; edit freely.
+    name: 'tim (groups)',
+    time: '10:02 AM',
+    msg: 'magazine cutout letters. nobody is being held hostage. probably',
+    img: 'assets/cards/tim-ransom.png',
+    alt: 'ransom-note card from tim',
+    w: 240,
+  },
+  {
+    name: 'tim (groups)',
+    time: '10:04 AM',
+    msg: 'Happ Birthday. hope your day is yay!',
+    img: 'assets/cards/tim-yay.png',
+    alt: 'second card from tim',
+    w: 280,
+  },
 ];
