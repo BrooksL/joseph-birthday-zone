@@ -30,7 +30,7 @@ window.GUESTBOOK_ENTRIES = [
   },
   {
     // No msg — the card speaks for itself.
-    name: 'beth (eng ops)',
+    name: 'beth',
     time: '3:09 PM',
     img: 'assets/cards/beth-hbd.png',
     alt: 'card from beth',
@@ -38,7 +38,7 @@ window.GUESTBOOK_ENTRIES = [
   },
   {
     // Copy below is a first draft in the house voice; edit freely.
-    name: 'beth (eng ops)',
+    name: 'beth',
     time: '3:11 PM',
     msg: 'yay baseball. also a tree, and the checkmark.',
     img: 'assets/cards/beth-yay-baseball.png',
@@ -107,14 +107,14 @@ window.GUESTBOOK_ENTRIES = [
   {
     // Tim — PM on Groups, the other team Joseph works with. Copy below is a
     // first draft in the house voice; edit freely.
-    name: 'tim (groups)',
+    name: 'tim',
     time: '10:02 AM',
     img: 'assets/cards/tim-ransom.png',
     alt: 'ransom-note card from tim',
     w: 240,
   },
   {
-    name: 'tim (groups)',
+    name: 'tim',
     time: '10:04 AM',
     msg: 'Happ Birthday. hope your day is yay!',
     img: 'assets/cards/tim-yay.png',
@@ -123,7 +123,7 @@ window.GUESTBOOK_ENTRIES = [
   },
   {
     // Noah — full-stack on Groups. Copy is a first draft; cut it like Tim's if you'd rather.
-    name: 'noah (groups)',
+    name: 'noah',
     time: '10:11 AM',
     msg: 'a real card. real paper. real pen. show-off.',
     img: 'assets/cards/noah.png',
@@ -132,7 +132,7 @@ window.GUESTBOOK_ENTRIES = [
   },
   {
     // Sumi — services team, was on Check-Ins until recently.
-    name: 'sumi (services)',
+    name: 'sumi',
     time: '10:19 AM',
     msg: 'live long and prosper... eat cake',
     img: 'assets/cards/sumi.png',
