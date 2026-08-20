@@ -30,12 +30,20 @@ window.GUESTBOOK_ENTRIES = [
     w: 280,
   },
   {
-    // Copy below is a first draft in the house voice; edit freely.
     name: 'beth (eng ops)',
     time: '3:09 PM',
+    msg: 'HBD (1).png',
+    img: 'assets/cards/beth-hbd.png',
+    alt: 'card from beth',
+    w: 280,
+  },
+  {
+    // Copy below is a first draft in the house voice; edit freely.
+    name: 'beth (eng ops)',
+    time: '3:11 PM',
     msg: 'yay baseball. also a tree, and the checkmark. she gets you.',
     img: 'assets/cards/beth-yay-baseball.png',
-    alt: 'card from beth',
+    alt: 'second card from beth',
     w: 280,
   },
   {
