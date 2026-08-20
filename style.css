@@ -60,6 +60,20 @@ a:visited { color: #551A8B; }
   justify-content: center;
 }
 
+/* Fuzz gets a photo where everyone else gets an initial. */
+.tile--photo {
+  background: #000000;
+  overflow: hidden;
+}
+
+.tile--photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top; /* keep her head in frame, not her chest */
+  display: block;
+}
+
 .badge {
   width: 88px;
   height: 31px;
