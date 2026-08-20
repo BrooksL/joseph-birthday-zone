@@ -27,7 +27,7 @@ window.GUESTBOOK_ENTRIES = [
     msg: 'inspired by the concept of "what would the features I ship look like without Joseph." made WITHOUT AI. (it is 1999. there is no AI.)',
     img: 'assets/cards/durheim.png',
     alt: 'card from chris',
-    w: 240,
+    w: 280,
   },
   {
     // Copy below is a first draft in the house voice; edit freely.
@@ -44,7 +44,7 @@ window.GUESTBOOK_ENTRIES = [
     msg: 'finger guns. it’s your birthday.',
     img: 'assets/cards/brendon.png',
     alt: 'card from brendon',
-    w: 240,
+    w: 280,
   },
   {
     name: 'taylor',
@@ -63,12 +63,15 @@ window.GUESTBOOK_ENTRIES = [
     w: 280,
   },
   {
-    // The failed-load line is the joke. Keep it unless a clean card turns up.
+    // Her real card turned up, so the failed-load gag is retired. To bring it
+    // back: set img to null and restore the `missing` line below.
+    //   missing: '[image failed to load: attachment.pl?id=40]',
     name: 'aimee (your PM)',
     time: '6:01 PM',
     msg: 'yay fastballs!! go braves!! this guestbook entry counts as a 1:1',
-    img: null,
-    missing: '[image failed to load: attachment.pl?id=40]',
+    img: 'assets/cards/aimee.png',
+    alt: 'card from aimee',
+    w: 280,
   },
   {
     name: 'jennie',
