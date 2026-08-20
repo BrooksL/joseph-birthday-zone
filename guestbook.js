@@ -140,4 +140,13 @@ window.GUESTBOOK_ENTRIES = [
     alt: 'card from sumi',
     w: 240,
   },
+  {
+    // Dave — Joseph's manager. Copy is a first draft; edit freely.
+    name: 'dave (the boss)',
+    time: '10:26 AM',
+    msg: 'WordArt. rainbow gradient. an eagle. a cow in a space helmet. this is the only card here that actually belongs on this website',
+    img: 'assets/cards/dave.png',
+    alt: 'card from dave',
+    w: 280,
+  },
 ];
