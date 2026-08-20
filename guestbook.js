@@ -149,4 +149,12 @@ window.GUESTBOOK_ENTRIES = [
     alt: 'card from dave',
     w: 280,
   },
+  {
+    // No msg — the haiku is the message.
+    name: 'lee',
+    time: '10:31 AM',
+    img: 'assets/cards/lee.png',
+    alt: 'birthday haiku from lee',
+    w: 280,
+  },
 ];
