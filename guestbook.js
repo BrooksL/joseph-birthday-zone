@@ -1,0 +1,96 @@
+/* ============================================================
+   GUESTBOOK ENTRIES
+
+   >>> PLACEHOLDER DATA — lifted from the design handoff. <<<
+   Higher-quality names / messages / pictures are coming. To swap:
+
+     1. drop the new PNGs in assets/cards/
+     2. replace the array below
+     3. commit + push. No HTML or CSS changes needed.
+
+   Fields:
+     name     link text (required)
+     time     shown after "//" (required)
+     msg      one-liner (required)
+     img      path to the card, or null
+     w        display width in px — the handoff used 240 or 280
+     missing  shown inline instead of an image when img is null
+
+   Please downscale new cards to ~560px wide before committing;
+   the handoff PNGs are ~1000px and the folder is already 3 MB.
+   ============================================================ */
+
+window.GUESTBOOK_ENTRIES = [
+  {
+    name: 'chris_durheim',
+    time: '3:07 PM',
+    msg: 'inspired by the concept of "what would the features I ship look like without Joseph." made WITHOUT AI. (it is 1999. there is no AI.)',
+    img: 'assets/cards/durheim.png',
+    alt: 'card from chris',
+    w: 240,
+  },
+  {
+    name: 'beth',
+    time: '3:09 PM',
+    msg: 'HBD (1).png',
+    img: 'assets/cards/beth.png',
+    alt: 'card from beth',
+    w: 240,
+  },
+  {
+    name: 'brendon',
+    time: '3:09 PM',
+    msg: 'finger guns. it’s your birthday.',
+    img: 'assets/cards/brendon.png',
+    alt: 'card from brendon',
+    w: 240,
+  },
+  {
+    name: 'taylor',
+    time: '3:13 PM',
+    msg: 'HAPPY BIRTHDAY JOSEP H (ran out of room)',
+    img: 'assets/cards/taylor.png',
+    alt: 'card from taylor',
+    w: 280,
+  },
+  {
+    name: 'katie',
+    time: '3:23 PM',
+    msg: 'IT IS YOUR BIRTHDAY. yay baseball! the purple chicken is load-bearing',
+    img: 'assets/cards/katie.png',
+    alt: 'card from katie',
+    w: 280,
+  },
+  {
+    // The failed-load line is the joke. Keep it unless a clean card turns up.
+    name: 'aimee (your PM)',
+    time: '6:01 PM',
+    msg: 'yay fastballs!! go braves!! this guestbook entry counts as a 1:1',
+    img: null,
+    missing: '[image failed to load: attachment.pl?id=40]',
+  },
+  {
+    name: 'jennie',
+    time: '8:00 AM',
+    msg: 'you, holding a Check-Ins flower and a Groups flower. do not ask why',
+    img: 'assets/cards/jennie.png',
+    alt: 'card from jennie',
+    w: 280,
+  },
+  {
+    name: 'deloris',
+    time: '8:21 AM',
+    msg: 'BALLOONS. also a chicken in a Braves hat. you’re welcome',
+    img: 'assets/cards/deloris.png',
+    alt: 'card from deloris',
+    w: 280,
+  },
+  {
+    name: 'mike (#9)',
+    time: '9:47 AM',
+    msg: 'thanks for being awesome! still #9. still salty. :-)',
+    img: 'assets/cards/mike.png',
+    alt: 'card from mike',
+    w: 240,
+  },
+];
