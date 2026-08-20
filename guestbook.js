@@ -98,9 +98,9 @@ window.GUESTBOOK_ENTRIES = [
     w: 280,
   },
   {
-    name: 'mike (#9)',
+    name: 'mike',
     time: '9:47 AM',
-    msg: 'thanks for being awesome! still #9. still salty. :-)',
+    msg: 'thanks for being awesome! :-)',
     img: 'assets/cards/mike.png',
     alt: 'card from mike',
     w: 280,

@@ -201,10 +201,6 @@
 
   /* ---------------- set dressing ---------------- */
 
-  document.getElementById('btn-sign').addEventListener('click', function () {
-    alert('ERROR: guestbook.cgi not found (404)\n\nJust say it in Slack like everyone else.');
-  });
-
   // Every other link on the page is decoration.
   document.addEventListener('click', function (e) {
     var a = e.target.closest('a');
